@@ -9,10 +9,6 @@ Requisitos del Proyecto
 Página de Login: Autenticación de usuario y contraseña (simulada o real).
 Dashboard de Administrador: Interfaz para gestionar productos y tipos de productos.
 CRUD funcional: Crear, visualizar, editar y eliminar registros de productos y tipos de productos.
-Instalación
-Clona el repositorio:
-
-git clone https://github.com/tuusuario/taller_calidad_software_nombre.git
 Accede al directorio del proyecto:
 
 cd taller_calidad_software_nombre

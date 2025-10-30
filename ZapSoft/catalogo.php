@@ -1,5 +1,5 @@
 <?php
-include('conexion.php');
+include'conexion.php';
 
 // Filtrar por tipo si el cliente selecciona uno
 $filtro = "";
@@ -104,3 +104,4 @@ $productos = $conexion->query($query);
     <script src="js/funciones.js"></script>
 </body>
 </html>
+

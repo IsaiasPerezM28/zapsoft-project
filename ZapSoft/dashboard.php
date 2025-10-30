@@ -44,7 +44,7 @@ if (!isset($_SESSION['usuario'])) {
     <div class="container mt-5 text-center">
         <h1 class="fw-bold text-primary">Bienvenido a ZapSoft, <?php echo $_SESSION['usuario']; ?> 👋</h1>
         <p class="lead mt-3">
-            Administra tu zapatería fácilmente desde este panel.  
+            Administra tu zapatería fácilmente desde este panel.
             Puedes gestionar los <b>productos</b> y sus <b>tipos</b>, ver tu inventario y mantener la información actualizada.
         </p>
 
@@ -63,3 +63,4 @@ if (!isset($_SESSION['usuario'])) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+

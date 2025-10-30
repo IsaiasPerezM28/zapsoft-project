@@ -24,4 +24,5 @@ $conexion->set_charset("utf8mb4");
 function cerrarConexion($conexion) {
     if ($conexion) $conexion->close();
 }
-?>
+
+

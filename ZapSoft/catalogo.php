@@ -69,7 +69,7 @@ $productos = $conexion->query($query);
                             <?php if($p['imagen']): ?>
                                 <img src="<?= $p['imagen'] ?>" class="card-img-top" alt="<?= htmlspecialchars($p['nombre']) ?>" style="height:220px;object-fit:cover;">
                             <?php else: ?>
-                                <img src="https://via.placeholder.com/250x220?text=Sin+Imagen" class="card-img-top" alt="Sin imagen">
+                                <img src="https://via.placeholder.com/250x220?text=Sin+Imagen" class="card-img-top" alt="No se puede cargar">
                             <?php endif; ?>
                             <div class="card-body text-center">
                                 <!-- Nombre del producto -->
